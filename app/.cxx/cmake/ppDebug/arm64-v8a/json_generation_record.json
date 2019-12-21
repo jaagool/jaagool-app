@@ -1,0 +1,54 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 24 min SDK version: arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "No CMake version was specified in build.gradle. Choosing a suitable version."
+  },
+  {
+    "level": "INFO",
+    "message": "Trying to locate CMake in local SDK repository."
+  },
+  {
+    "level": "INFO",
+    "message": "CMake \u00273.10.2\u0027 found in SDK did not match requested version \u00273.6.0\u0027."
+  },
+  {
+    "level": "INFO",
+    "message": "- CMake found in SDK at \u0027C:\\AndroidSDK\\cmake\\3.6.4111459\u0027 had version \u00273.6.0\u0027"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON D:\\AndroidProjects\\oschina-android-master\\app\\.cxx\\cmake\\ppDebug\\arm64-v8a\\android_gradle_build.json due to:"
+  },
+  {
+    "level": "INFO",
+    "message": "- expected json D:\\AndroidProjects\\oschina-android-master\\app\\.cxx\\cmake\\ppDebug\\arm64-v8a\\android_gradle_build.json file is not present, will remove stale json folder"
+  },
+  {
+    "level": "INFO",
+    "message": "- missing previous command file D:\\AndroidProjects\\oschina-android-master\\app\\.cxx\\cmake\\ppDebug\\arm64-v8a\\build_command.txt, will remove stale json folder"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027D:\\AndroidProjects\\oschina-android-master\\app\\.cxx\\cmake\\ppDebug\\arm64-v8a\u0027"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : C:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\cmake.exe\narguments : \n-HD:\\AndroidProjects\\oschina-android-master\\app\n-BD:\\AndroidProjects\\oschina-android-master\\app\\.cxx\\cmake\\ppDebug\\arm64-v8a\n-DANDROID_ABI\u003darm64-v8a\n-DANDROID_PLATFORM\u003dandroid-24\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\AndroidProjects\\oschina-android-master\\app\\build\\intermediates\\cmake\\ppDebug\\obj\\arm64-v8a\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DANDROID_NDK\u003dC:\\AndroidSDK\\ndk\\20.1.5948944\n-DCMAKE_CXX_FLAGS\u003dserial_port\n-DCMAKE_TOOLCHAIN_FILE\u003dC:\\AndroidSDK\\ndk\\20.1.5948944\\build\\cmake\\android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003dC:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\ninja.exe\n-GAndroid Gradle - Ninja\njvmArgs : \n\n"
+  },
+  {
+    "level": "INFO",
+    "message": "Executable : C:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\cmake.exe\narguments : \n-HD:\\AndroidProjects\\oschina-android-master\\app\n-BD:\\AndroidProjects\\oschina-android-master\\app\\.cxx\\cmake\\ppDebug\\arm64-v8a\n-DANDROID_ABI\u003darm64-v8a\n-DANDROID_PLATFORM\u003dandroid-24\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\AndroidProjects\\oschina-android-master\\app\\build\\intermediates\\cmake\\ppDebug\\obj\\arm64-v8a\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DANDROID_NDK\u003dC:\\AndroidSDK\\ndk\\20.1.5948944\n-DCMAKE_CXX_FLAGS\u003dserial_port\n-DCMAKE_TOOLCHAIN_FILE\u003dC:\\AndroidSDK\\ndk\\20.1.5948944\\build\\cmake\\android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003dC:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\ninja.exe\n-GAndroid Gradle - Ninja\njvmArgs : \n\n"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed with problem. Exception: Build command failed.\nError while executing process C:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\cmake.exe with arguments {-HD:\\AndroidProjects\\oschina-android-master\\app -BD:\\AndroidProjects\\oschina-android-master\\app\\.cxx\\cmake\\ppDebug\\arm64-v8a -DANDROID_ABI\u003darm64-v8a -DANDROID_PLATFORM\u003dandroid-24 -DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\AndroidProjects\\oschina-android-master\\app\\build\\intermediates\\cmake\\ppDebug\\obj\\arm64-v8a -DCMAKE_BUILD_TYPE\u003dDebug -DANDROID_NDK\u003dC:\\AndroidSDK\\ndk\\20.1.5948944 -DCMAKE_CXX_FLAGS\u003dserial_port -DCMAKE_TOOLCHAIN_FILE\u003dC:\\AndroidSDK\\ndk\\20.1.5948944\\build\\cmake\\android.toolchain.cmake -DCMAKE_MAKE_PROGRAM\u003dC:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\ninja.exe -GAndroid Gradle - Ninja}\n-- Check for working C compiler: C:/AndroidSDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe\n-- Check for working C compiler: C:/AndroidSDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works\n-- Detecting C compiler ABI info\n-- Detecting C compiler ABI info - done\n-- Detecting C compile features\n-- Detecting C compile features - done\n-- Check for working CXX compiler: C:/AndroidSDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe\n-- Check for working CXX compiler: C:/AndroidSDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- broken\n-- Configuring incomplete, errors occurred!\nSee also \"D:/AndroidProjects/oschina-android-master/app/.cxx/cmake/ppDebug/arm64-v8a/CMakeFiles/CMakeOutput.log\".\nSee also \"D:/AndroidProjects/oschina-android-master/app/.cxx/cmake/ppDebug/arm64-v8a/CMakeFiles/CMakeError.log\".\n\nCMake Error at C:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCXXCompiler.cmake:54 (message):\n  The C++ compiler\n  \"C:/AndroidSDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe\"\n  is not able to compile a simple test program.\n\n  It fails with the following output:\n\n   Change Dir: D:/AndroidProjects/oschina-android-master/app/.cxx/cmake/ppDebug/arm64-v8a/CMakeFiles/CMakeTmp\n\n  \n\n  Run Build Command:\"C:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\ninja.exe\"\n  \"cmTC_4e8a5\"\n\n  [1/2] Building CXX object CMakeFiles/cmTC_4e8a5.dir/testCXXCompiler.cxx.o\n\n\n  FAILED:\n  C:\\AndroidSDK\\ndk\\20.1.5948944\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe\n  --target\u003daarch64-none-linux-android24\n  --gcc-toolchain\u003dC:/AndroidSDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64\n  --sysroot\u003dC:/AndroidSDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot\n  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables\n  -fstack-protector-strong -no-canonical-prefixes -fno-addrsig\n  -Wa,--noexecstack -Wformat -Werror\u003dformat-security serial_port -fPIE -o\n  CMakeFiles/cmTC_4e8a5.dir/testCXXCompiler.cxx.o -c\n  D:\\AndroidProjects\\oschina-android-master\\app\\.cxx\\cmake\\ppDebug\\arm64-v8a\\CMakeFiles\\CMakeTmp\\testCXXCompiler.cxx\n\n\n\n  clang++: error: no such file or directory: \u0027serial_port\u0027\n\n\n\n  ninja: build stopped: subcommand failed.\n\n\n  \n\n  \n\n  CMake will not be able to correctly generate this project.\nCall Stack (most recent call first):\n  CMakeLists.txt\n\n\n"
+  }
+]

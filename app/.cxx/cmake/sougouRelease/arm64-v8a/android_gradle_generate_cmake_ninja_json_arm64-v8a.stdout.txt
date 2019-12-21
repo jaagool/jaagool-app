@@ -1,0 +1,11 @@
+-- Check for working C compiler: C:/AndroidSDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+-- Check for working C compiler: C:/AndroidSDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: C:/AndroidSDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe
+-- Check for working CXX compiler: C:/AndroidSDK/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- broken
+-- Configuring incomplete, errors occurred!
+See also "D:/AndroidProjects/oschina-android-master/app/.cxx/cmake/sougouRelease/arm64-v8a/CMakeFiles/CMakeOutput.log".
+See also "D:/AndroidProjects/oschina-android-master/app/.cxx/cmake/sougouRelease/arm64-v8a/CMakeFiles/CMakeError.log".
